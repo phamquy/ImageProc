@@ -1,0 +1,143 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageProcessing - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\QUYPS~1.MEO\LOCALS~1\Temp\RSP154E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "C:\Program Files\Microsoft SDKs\Windows\v6.0A\Include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ImageProcessing.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2.Projects\ImageProcessing\1.Source\2DRaw.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ChildFrm.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ColorElement.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\DCMImgLoader.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\FFTMachine.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\FormatedImgLoader.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\FormatedImgSaver.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\Histogram.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ImageProcessing.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ImgDoc.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ImgFourierSource.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ImgProcessor.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ImgSource.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ImgView.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\LaplacianSelectDlg.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\Loader.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\MainFrm.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\Mask.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\MonochromeElement.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\MyNewTreeCtrl.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PEDCanny.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PEDLaplacian.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PEDPrewitt.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PEDRobert.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PEDSobel.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PGTLogTransformer.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PGTPowerTransformer.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PGTReveser.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PGTThresolder.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PHEEqualizer.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PHEMatcher.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PHEStretcher.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PIEFrequencyHPF.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PIEFrequencyLPF.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PIESpatialHPF.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\PIESpatialLPF.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ProcEdgeDetector.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ProcGrayTransformer.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ProcHisEnhancer.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ProcImgEnhancer.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\RawElement.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\RawImgLoader.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\RawImgSaver.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\RawInfoDlg.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\Saver.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\scbarcf.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\scbarg.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\SimpleTreeCtrl.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\sizecbar.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\ThresoldDlg.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\TransformFunc.cpp"
+"D:\2.Projects\ImageProcessing\1.Source\Utility.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\QUYPS~1.MEO\LOCALS~1\Temp\RSP154E.tmp" 
+Creating temporary file "C:\DOCUME~1\QUYPS~1.MEO\LOCALS~1\Temp\RSP154F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "C:\Program Files\Microsoft SDKs\Windows\v6.0A\Include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ImageProcessing.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2.Projects\ImageProcessing\1.Source\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\QUYPS~1.MEO\LOCALS~1\Temp\RSP154F.tmp" 
+Creating temporary file "C:\DOCUME~1\QUYPS~1.MEO\LOCALS~1\Temp\RSP1550.tmp" with contents
+[
+gdiplus.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImageProcessing.pdb" /debug /machine:I386 /out:"Debug/ImageProcessing.exe" /pdbtype:sept 
+.\Debug\2DRaw.obj
+.\Debug\ChildFrm.obj
+.\Debug\ColorElement.obj
+.\Debug\DCMImgLoader.obj
+.\Debug\FFTMachine.obj
+.\Debug\FormatedImgLoader.obj
+.\Debug\FormatedImgSaver.obj
+.\Debug\Histogram.obj
+.\Debug\ImageProcessing.obj
+.\Debug\ImgDoc.obj
+.\Debug\ImgFourierSource.obj
+.\Debug\ImgProcessor.obj
+.\Debug\ImgSource.obj
+.\Debug\ImgView.obj
+.\Debug\LaplacianSelectDlg.obj
+.\Debug\Loader.obj
+.\Debug\MainFrm.obj
+.\Debug\Mask.obj
+.\Debug\MonochromeElement.obj
+.\Debug\MyNewTreeCtrl.obj
+.\Debug\PEDCanny.obj
+.\Debug\PEDLaplacian.obj
+.\Debug\PEDPrewitt.obj
+.\Debug\PEDRobert.obj
+.\Debug\PEDSobel.obj
+.\Debug\PGTLogTransformer.obj
+.\Debug\PGTPowerTransformer.obj
+.\Debug\PGTReveser.obj
+.\Debug\PGTThresolder.obj
+.\Debug\PHEEqualizer.obj
+.\Debug\PHEMatcher.obj
+.\Debug\PHEStretcher.obj
+.\Debug\PIEFrequencyHPF.obj
+.\Debug\PIEFrequencyLPF.obj
+.\Debug\PIESpatialHPF.obj
+.\Debug\PIESpatialLPF.obj
+.\Debug\ProcEdgeDetector.obj
+.\Debug\ProcGrayTransformer.obj
+.\Debug\ProcHisEnhancer.obj
+.\Debug\ProcImgEnhancer.obj
+.\Debug\RawElement.obj
+.\Debug\RawImgLoader.obj
+.\Debug\RawImgSaver.obj
+.\Debug\RawInfoDlg.obj
+.\Debug\Saver.obj
+.\Debug\scbarcf.obj
+.\Debug\scbarg.obj
+.\Debug\SimpleTreeCtrl.obj
+.\Debug\sizecbar.obj
+.\Debug\StdAfx.obj
+.\Debug\ThresoldDlg.obj
+.\Debug\TransformFunc.obj
+.\Debug\Utility.obj
+.\Debug\ImageProcessing.res
+]
+Creating command line "link.exe @C:\DOCUME~1\QUYPS~1.MEO\LOCALS~1\Temp\RSP1550.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+c:\program files\microsoft sdks\windows\v6.0a\include\specstrings.h(9) : fatal error C1083: Cannot open include file: 'sal.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ImageProcessing.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
